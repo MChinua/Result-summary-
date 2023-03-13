@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Hanken+Grotesk:wght@500;700;800&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-
-/* :root{
---Light red: hsl(0, 100%, 67%)
---Orange yellow: hsl(39, 100%, 56%)
---Green teal: hsl(166, 100%, 37%)
---Cobalt blue: hsl(234, 85%, 45%)
-
-} */
-
-
 *{
     margin: 0;
     padding: 0;
@@ -209,6 +199,11 @@ color: white;
     .summary{
         width: 100%;
     }
+
+    body .attribution{
+        position: absolute;
+        bottom: -120px;
+    }
 }
 .attribution {
     font-size: 11px;
@@ -216,6 +211,8 @@ color: white;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    bottom: 80px;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
