@@ -202,7 +202,7 @@ color: white;
 
     body .attribution{
         position: absolute;
-        bottom: -120px;
+        bottom: -180px;
     }
 }
 .attribution {
@@ -212,7 +212,7 @@ color: white;
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 80px;
+    bottom: 0px;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
